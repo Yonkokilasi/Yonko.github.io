@@ -1,0 +1,25 @@
+body{
+    background-color: grey;
+    font-family: cursive;
+}
+h1{
+    color: darkorange;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+h2{
+    color: orange;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+h3{
+    color:darkorange;
+    font-family: sans-serif;
+}
+.ABOUTME{
+    float: right;
+    width: 40%;
+}
+.list1{
+    width: 40%;
+}
