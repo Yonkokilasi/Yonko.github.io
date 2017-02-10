@@ -87,10 +87,7 @@ iframe{
     float:left;
 }
 .parallax {
-    /* The image used */
     background-image: url("https://wallpaperscraft.com/image/flag_russian_empire_colors_background_18443_1920x1080.jpg");
-
-    /* Set a specific height */
     height: 500px;
 
     background-attachment: fixed;
