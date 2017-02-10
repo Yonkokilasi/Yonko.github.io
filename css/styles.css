@@ -1,12 +1,17 @@
+@media  {
+    all(>500px)
+}
 body{
     background-color: black;
     font-family: cursive;
     color:white;
+    text-rendering: optimizeSpeed;
 }
 h1{
     color: darkorange;
     font-weight: bold;
     font-family: sans-serif;
+
 }
 h2{
     color: orange;
@@ -18,12 +23,12 @@ h3{
     font-family: sans-serif;
 }
 .ABOUTME{
-    float: right;
-    width: 40%;
+    font-style: italic;
+    width:auto;
     align-self:center;
 }
 .list1{
-    width: 40%;
+    width:auto;
 }
 .floaters{
     float: right;
@@ -32,14 +37,14 @@ h3{
 
 #navbar {
     float: right;
-    background-color: grey;
+    background-color: transparent;
 }
 
 li {
     display: inline;
 }
 #wrapper {
-        width: 950px;
+        width: auto;
         height: auto;
         background-color: #ffa011;
         border-left: 5px solid #0f0008;
@@ -53,7 +58,7 @@ li {
         border-bottom: 5px solid #0f0008;
 }
 a:link {
-    background-color: grey;
+    background-color: transparent;
 }
 
 a:visited {
@@ -66,5 +71,18 @@ a:hover {
 
 .welcome{
     font-size: 35px;
-    align-items: center;
+    text-align: center;
+}
+#poetry{
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    margin : 0 auto;
+    padding: 40px;
+    text-align: justify;
+}
+iframe{
+    float:left;
 }
