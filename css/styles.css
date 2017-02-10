@@ -1,6 +1,7 @@
 body{
-    background-color: grey;
+    background-color: black;
     font-family: cursive;
+    color:white;
 }
 h1{
     color: darkorange;
@@ -29,12 +30,41 @@ h3{
     align-items: center;
 }
 
-.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+#navbar {
+    float: right;
+    background-color: grey;
 }
 
 li {
     display: inline;
+}
+#wrapper {
+        width: 950px;
+        height: auto;
+        background-color: #ffa011;
+        border-left: 5px solid #0f0008;
+        border-right: : 5px solid #0f0008
+        margin: 0;
+        padding: 0;
+        overflow: auto;
+        margin : 0 auto;
+        padding: 10px;
+        border-color: white;
+        border-bottom: 5px solid #0f0008;
+}
+a:link {
+    background-color: grey;
+}
+
+a:visited {
+    background-color: white;
+}
+
+a:hover {
+    background-color: orange;
+}
+
+.welcome{
+    font-size: 35px;
+    align-items: center;
 }
