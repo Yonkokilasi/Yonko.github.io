@@ -19,7 +19,22 @@ h3{
 .ABOUTME{
     float: right;
     width: 40%;
+    align-self:center;
 }
 .list1{
     width: 40%;
+}
+.floaters{
+    float: right;
+    align-items: center;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
 }
