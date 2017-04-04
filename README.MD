@@ -1,14 +1,21 @@
-#Project Titile
+# Project Titile
     **KILASI'S README**
-##AUTHOR
- This project was created and committed by YONKO KILASI
+## AUTHOR
+ Joseph Kilasi
 
-###Description of project
-    This Project was created as a portfolio for myself. It has details about me and will be updated weekly
-####Setup instructions
-    to install the system, pull the whole folder to your computer and then open the file called index.html using your default web browser
-#####github
-    my project is available online for free at git hub. to get it, check out [Project site](https://yonkokilasi,github.io)
+### Description of project
+    This Project was created as a portfolio for myself. It has details about me and my passion which is programming.
+    Here you will find various projects I have done and a little about myself.
+#### Setup instructions
+    To setup fork the repo from github.Then proceed to clone it to your personal PC.
+    Also make sure you have git bas installed in your terminal.
 
-#######Copyrights
-By default, any project school project is copyrighted by the school. Please check out the school copyright rules
+    ```bash
+    $ git clone https://github.com/username/Yonkokilasi.github.io.git
+
+    ```
+#####  github
+    my project is available online for free at git hub. to get it, check out
+    [Project site](https://yonkokilasi,github.io)
+
+####### Copyrights
