@@ -10,10 +10,10 @@
     To setup fork the repo from github.Then proceed to clone it to your personal PC.
     Also make sure you have git bas installed in your terminal.
 
-    ```bash
+```bash
     $ git clone https://github.com/username/Yonkokilasi.github.io.git
 
-    ```
+```
 #####  github
     my project is available online for free at git hub. to get it, check out
     [Project site](https://yonkokilasi,github.io)
