@@ -16,6 +16,6 @@
 ```
 #####  github
     my project is available online for free at git hub. to get it, check out
-    [Project site](https://yonkokilasi,github.io)
+    Project site: (https://yonkokilasi,github.io)
 
 ####### Copyrights
