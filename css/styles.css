@@ -1,11 +1,14 @@
 html,
 body {
-    width:100vw;
+    width: 100vw;
 }
+
+
+/*side nav starts here*/
 
 #head {
     height: 530px;
-/*    width: 100vw;*/
+    /*    width: 100vw;*/
     text-align: center;
     background-size: auto;
     overflow: hidden;
@@ -59,4 +62,30 @@ body {
 #burger {
     float: left;
     padding: 20px;
+}
+
+
+/*for side nav ends here*/
+
+img {
+    height: 40vh;
+    width: 40vw;
+}
+
+.titles {
+    font-size: 30px;
+}
+
+.description {
+    height: 40vh;
+    font-size: 20px;
+}
+
+.headings {
+    text-align: center;
+    margin-top: 40px;
+}
+
+a {
+    color: inherit;
 }
