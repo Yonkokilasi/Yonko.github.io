@@ -5,25 +5,30 @@
 
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery-3.1.1.js"></script>
 </head>
 
 <body>
-    <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
-        <h3 class="w3-bar-item">Menu</h3>
-        <a href="#" class="w3-bar-item w3-button">Home</a>
-        <a href="#" class="w3-bar-item w3-button">Contact</a>
-        <a href="#" class="w3-bar-item w3-button">Projects</a>
-        <a href="#" class="w3-bar-item w3-button">Blog</a>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+        <a href="#projects">Projects</a>
+        <a href="#">Blog</a>
     </div>
-    <div style="margin-left:25%">
-
-        <div>
-            <h1>My Page</h1>
+    <div id="main">
+        <div id="head">
+            <span onclick="openNav()"><i class="fa fa-bars fa-3x" aria-hidden="true" id="burger"></i></span>
         </div>
+        <div id="pulse">
+            <h1>Brief intro</h1>
+        </div>
+        <div id="projects">Projects</div>
 
 
 
