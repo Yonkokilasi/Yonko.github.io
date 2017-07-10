@@ -88,7 +88,8 @@ img {
     font-size: 20px;
 }
 
-.hiding3 img {
+.hiding3,
+.hidhing4 img {
     height: 300px;
 }
 
