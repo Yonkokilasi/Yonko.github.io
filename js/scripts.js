@@ -1,5 +1,5 @@
 function openNav() {
-    document.getElementById("mySidenav").style.width = "50%";
+    document.getElementById("mySidenav").style.width = "100%";
 }
 
 
@@ -18,6 +18,9 @@ $(document).ready(function () {
     });
     $('#android').click(function () {
         $(".hiding4").toggle();
+    });
+    $('#nasa').click(function () {
+        $(".hiding5").toggle();
     });
 
 });

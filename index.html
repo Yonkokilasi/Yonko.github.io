@@ -5,45 +5,52 @@
 
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans+Condensed:300|Zilla+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <link href="css/animate.css" rel="stylesheet" type="text/css">
     <script src="js/scripts.js"></script>
-    <script src="js/jquery-3.1.1.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans+Condensed:300|Zilla+Slab" rel="stylesheet">
+
 
 </head>
 
 <body>
     <div class="wrapper">
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="#">Home</a>
-            <a href="#">Contact</a>
-            <a href="#projects">Projects</a>
-            <a href="#">Blog</a>
+        <div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#main">Home</a>
+                <a href="contact.html">Contact</a>
+                <a href="projects.html">Projects</a>
+                <!--                <a href="#">Blog</a>-->
+            </div>
         </div>
         <div id="main">
             <div id="head">
                 <span onclick="openNav()"><i class="fa fa-bars fa-3x" aria-hidden="true" id="burger"></i></span>
-                <div id="intro">
+                <div id="intro" class="container-fluid">
                     <p class="animated wobble">J- ovial</p>
                     <p class="animated zoomIn">O- bservant</p>
-                    <p class="animated zoomInDown">S-incere</p>
-                    <p class="animated zoomInDown">E-thusiastic</p>
+                    <p class="animated zoomInDown">S- incere</p>
+                    <p class="animated zoomInDown">E- thusiastic</p>
                     <p class="animated zoomIn">P- olite</p>
-                    <p class="animated flipInX">H- umorous</p>
+                    <p class="animated wobble">H- umorous</p>
                 </div>
             </div>
             <div id="pulse">
-                <h1>Brief intro</h1>
+                <div class="container-fluid">
+                    <h1>Brief intro</h1>
+                </div>
             </div>
-            <div id="projects">Projects
-                <h1 id="html" class="headings">HTML & CSS <i class="fa fa-arrow-down" aria-hidden="true"></i>
+            <div id="projects">
+                <div class="container-fluid">
+
+                    <h1>Projects</h1>
+                    <h1 id="html" class="headings">HTML & CSS <i class="fa fa-arrow-down" aria-hidden="true"></i>
             </h1>
-                <span class="hiding1">
+                    <span class="hiding1">
             <a href="https://kilasi.netlify.com/" target="_blank">
                 <img class="col-md-6" src="images/Capture.PNG">
             </a>
@@ -53,8 +60,8 @@
              <p class="description">A platform to showcase my photography skills to potential clients</p>
              
             </span>
-                <a target="_blank" href="https://yonkokilasi.github.io/kulahapa/"><img src="images/kulahapa.JPG"></a>
-                <span class="col-md-6">
+                    <a target="_blank" href="https://yonkokilasi.github.io/kulahapa/"><img src="images/kulahapa.JPG"></a>
+                    <span class="col-md-6">
                 <h2 class="titles">KulaHapa</h2>
                 <p>A site for restaurants - rem to change this<br>
                 <a target="_blank" href="https://github.com/Yonkokilasi/kulahapa">
@@ -62,10 +69,11 @@
                 </a>
                 </p>
             </span>
-                </span>
+                    </span>
 
-                <h1 class="headings" id="js">Javascript <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                    <h1 class="headings" id="js">Javascript <i class="fa fa-arrow-down" aria-hidden="true"></i>
             </h1>
+                </div>
                 <!--
             <a href="https://cryptic-crag-28542.herokuapp.com/">
     <img class="col-md-6" src="">
@@ -134,14 +142,25 @@
                     </a>
                 </p>
 
-
                 </span>
-
+                <h1 id="nasa" class="headings">NASA SPACE APPS CHALLENGE 2017<i class="fa fa-arrow-down" aria-hidden="true"></i>
+                </h1>
+                <span class="hiding5">
+                <h2 class="titles">Pata Maji</h2>
+                <a href=""><img id="last" src=""></a>
+                <span class="col-md-6">
+                <p class="description" >An application that will help farmers,landowners and land managers keep track of water resources in their area<br>
+                    <a target="_blank" href="https://github.com/Yonkokilasi/Pika2.0">
+                        <button class="btn"><i class="fa fa-github fa-1x" aria-hidden="true"></i> View on github</button>
+                    </a>
+                </p>
+                </span>
+                </span>
             </div>
         </div>
     </div>
     <footer>
-        <p>Copyright © 2017. This site was created and designed by Yonko Kilasi</p>
+        <p>Copyright © 2017. This site was created and designed by Yonko Kilasi <a href="#head" id="back"><i class="fa fa-arrow-up" aria-hidden="true"></i> Back to top</a></p>
     </footer>
 </body>
 

@@ -1,6 +1,10 @@
 html,
 body {
-    width: 100vw;
+    /*    width: 100vw;*/
+}
+
+.row {
+    margin: 0;
 }
 
 
@@ -23,24 +27,25 @@ body {
 .sidenav {
     height: 100%;
     width: 0;
-    position: absolute;
+    position: fixed;
     z-index: 4;
     top: 0;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
     padding-top: 60px;
-    transition: 1.8s;
-    margin-right: 40px;
+    transition: 2.0s;
+    margin-right: 70px;
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 18px 18px 18px 18px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 35px;
     color: #818181;
     display: block;
-    transition: 0.3s
+    transition: 0.5s;
+    text-align: center;
 }
 
 .sidenav a:hover,
@@ -107,8 +112,10 @@ h2 {
 .hiding1,
 .hiding2,
 .hiding3,
-.hiding4 {
+.hiding4,
+.hiding5 {
     display: none;
+    margin-bottom: 0;
 }
 
 .wrapper {
@@ -130,9 +137,21 @@ h2 {
 
 #projects {
     background-color: #F06449;
+    height: inherit;
 }
 
 footer {
     font-size: 15px;
     text-align: center;
 }
+
+#last {
+    margin-bottom: auto;
+}
+
+
+/*
+#back {
+    margin-left: 100px;
+    position: relative;
+}*/
