@@ -89,3 +89,15 @@ img {
 a {
     color: inherit;
 }
+
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body {
+    font-family: 'Zilla Slab', serif;
+}
+
+h2 {
+    font-family: 'Crimson Text', serif;
+}
