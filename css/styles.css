@@ -88,9 +88,14 @@ img {
     font-size: 20px;
 }
 
+.hiding3 img {
+    height: 300px;
+}
+
 .headings {
     text-align: center;
     margin-top: 40px;
+    cursor: pointer;
 }
 
 a {
