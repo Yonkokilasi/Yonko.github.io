@@ -6,3 +6,18 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+$(document).ready(function () {
+    $('#html').click(function () {
+        $(".hiding1").toggle();
+    });
+    $('#js').click(function () {
+        $(".hiding2").toggle();
+    });
+    $('#java').click(function () {
+        $(".hiding3").toggle();
+    });
+    $('#android').click(function () {
+        $(".hiding4").toggle();
+    });
+
+});

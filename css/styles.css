@@ -16,6 +16,8 @@ body {
     background-position: center center;
     background-color: aqua;
     padding: 0;
+    background-image: url(../images/transition.gif);
+    color: #F3EFE0;
 }
 
 .sidenav {
@@ -56,7 +58,7 @@ body {
 
 #main {
     transition: margin-right .5s;
-    padding: 20px;
+    padding: 0px;
 }
 
 #burger {
@@ -100,4 +102,37 @@ body {
 
 h2 {
     font-family: 'Crimson Text', serif;
+}
+
+.hiding1,
+.hiding2,
+.hiding3,
+.hiding4 {
+    display: none;
+}
+
+.wrapper {
+    padding: 0;
+    margin: 0;
+}
+
+#intro {
+    text-align: left;
+    margin-top: 70px;
+    font-size: 40px;
+    padding-left: 50px;
+}
+
+#pulse {
+    background-color: #CBA135;
+    padding: 0;
+}
+
+#projects {
+    background-color: #F06449;
+}
+
+footer {
+    font-size: 15px;
+    text-align: center;
 }
