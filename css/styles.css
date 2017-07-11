@@ -147,6 +147,17 @@ h2 {
     height: inherit;
 }
 
+#extra {
+    font-size: 15px;
+}
+
+
+/*
+.tatu {
+    height: 90vh;
+}
+*/
+
 footer {
     font-size: 15px;
     text-align: center;
