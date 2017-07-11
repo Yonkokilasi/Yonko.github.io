@@ -1,6 +1,7 @@
 html,
 body {
     /*    width: 100vw;*/
+    color: whitesmoke;
 }
 
 .row {
@@ -147,6 +148,11 @@ h2 {
     height: inherit;
 }
 
+button {
+    background-color: #F06449;
+    margin-top: 10px;
+}
+
 #extra {
     font-size: 15px;
 }
@@ -161,6 +167,7 @@ h2 {
 footer {
     font-size: 15px;
     text-align: center;
+    background-color: #CBA135;
 }
 
 #last {
