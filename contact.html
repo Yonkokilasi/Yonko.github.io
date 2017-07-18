@@ -34,14 +34,24 @@
 </head>
 
 <body>
-    <div id="contactspage" class=" pulse ,container-fluid">
+    <div id="contactspage" class="pulse ,container-fluid">
 
-        <form class="form_control" action="https://formspree.io/yonkokilasi@gmail.com" method="POST">
+        <form class="form-horizontal" action="https://formspree.io/yonkokilasi@gmail.com" method="POST">
+            <h2 id="hear">I'd love to hear from you</h2>
             <p>Please fill out the form below to contact me</p>
-            <input id="email" type="email" placeholder="Enter your email" name="_replyto">
-            <br>
-            <input type="text" placeholder="Enter your message" name="name">
-            <input class="btn" id="send" type="submit" value="Send">
+            <div class="form-group">
+                <label>Email</label>
+                <input id="email" type="email" class="form-control" placeholder="Enter your email" name="_replyto">
+                <br>
+            </div>
+            <div class="form-group">
+                <label>Message</label>
+                <!--                <input type="text" placeholder="Enter your message" class="form-control" id="message" name="name">-->
+                <br>
+                <textarea rows="3" id="message" name="name" class="form-control"></textarea>
+
+                <input class="btn" id="send" type="submit" value="Send">
+            </div>
         </form>
     </div>
     <footer class="container-fluid">
@@ -72,9 +82,6 @@
 <meta itemprop="name" content="Joseph Kilasi">
    </span>
 
-
-    <!-- Go to www.addthis.com/dashboard to customize your tools -->
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58a94c4e8832ee25"></script>
 </body>
 
 </html>
