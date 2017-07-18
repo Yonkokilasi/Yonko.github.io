@@ -35,7 +35,7 @@ body {
     background-color: #111;
     overflow-x: hidden;
     padding-top: 60px;
-    transition: 2.0s;
+    transition: .5s;
     margin-right: 70px;
 }
 
@@ -155,13 +155,16 @@ button {
 
 #contactspage {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     margin: 0;
+    padding: 0;
 }
 
 #send {
-    width: 200px;
+    width: 400px;
     background-color: #F06449;
+    height: 50px;
+    font-size: 20px;
 }
 
 #extra {
@@ -169,14 +172,17 @@ button {
 }
 
 form {
-    padding-top: 200px;
-    padding-left: 400px;
+    padding-top: 70px;
+    padding-left: 450px;
     color: black;
+    margin: 0;
+    width: 100vw;
 }
 
 #email {
     margin-top: 10px;
     width: 30vw;
+    font-size: 20px;
 }
 
 #hear {
@@ -186,14 +192,8 @@ form {
 #message {
     margin-top: 10px;
     width: 30vw;
+    font-size: 20px;
 }
-
-
-/*
-.tatu {
-    height: 90vh;
-}
-*/
 
 footer {
     font-size: 15px;
@@ -201,17 +201,11 @@ footer {
     background-color: #CBA135;
 }
 
+
+}
 #last {
     margin-bottom: auto;
 }
-
 #nasa {
     padding-bottom: 20px;
 }
-
-
-/*
-#back {
-    margin-left: 100px;
-    position: relative;
-}*/
