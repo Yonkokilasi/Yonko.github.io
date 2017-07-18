@@ -137,7 +137,7 @@ h2 {
     padding-left: 50px;
 }
 
-#pulse {
+.pulse {
     background-color: #CBA135;
     padding: 0;
     font-size: 20px;
@@ -153,8 +153,23 @@ button {
     margin-top: 10px;
 }
 
+#contactspage {
+    height: 100vh;
+}
+
+#send {
+    width: 200px;
+    background-color: #F06449;
+}
+
 #extra {
     font-size: 15px;
+}
+
+form {
+    padding-top: 300px;
+    padding-left: 300px;
+    color: black;
 }
 
 
