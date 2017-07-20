@@ -22,5 +22,16 @@ $(document).ready(function () {
     $('#nasa').click(function () {
         $(".hiding5").toggle();
     });
+//    $('.grid-item').hover(function () {
+            //        $("#first").toggleClass('.overlay');
+            //    });
 
 });
+
+function on() {
+    document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+    document.getElementById("overlay").style.display = "none";
+}
