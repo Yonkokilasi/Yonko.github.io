@@ -306,9 +306,76 @@ html {
     transition: all 1s;
 }
 
-.revamp,
-.twende,
-.tukio,
+.kula {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/kular.jpg");
+}
+
+.kula:hover {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("assets/images/kular.jpg");
+    transition: all 1s;
+}
+
+.Hadithi {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Capture.jpg");
+}
+
+.Hadithi:hover {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("assets/images/Capture.jpg");
+    transition: all 1s;
+}
+
+.Lexy {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/lexy.jpg");
+}
+
+Lexy:hover {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("assets/images/lexy.jpg");
+    transition: all 1s;
+}
+
+.Rembesha {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/rembesha.png");
+}
+
+.Rembesha:hover {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("assets/images/rembesha.png");
+    transition: all 1s;
+}
+
+.tatu {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tatu.jpg");
+}
+
+.tatu:hover {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("assets/images/tatu.jpg");
+    transition: all 1s;
+}
+
+.pata {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/tech.jpg");
+}
+
+.pata:hover {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("assets/images/tech.jpg");
+    transition: all 1s;
+}
+
+.pika {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/pika.png");
+}
+
+.pika:hover {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("assets/images/pika.png");
+    transition: all 1s;
+}
+
+.Hadithi,
+.Lexy,
+.Rembesha,
+.kula,
+.pata,
+.tatu,
+.pika,
 .photography {
     background-size: cover;
     padding-top: 90px;
@@ -323,9 +390,13 @@ html {
     height: 100%;
 }
 
-.revamp:hover .overlay,
-.twende:hover .overlay,
-.tukio:hover .overlay,
+.Hadithi:hover .overlay,
+.pika:hover .overlay,
+.pata:hover .overlay,
+.tatu:hover .overlay,
+.Rembesha:hover .overlay,
+.Lexy:hover .overlay,
+.kula:hover .overlay,
 .photography:hover .overlay {
     opacity: 1;
     transition: all 1s;
