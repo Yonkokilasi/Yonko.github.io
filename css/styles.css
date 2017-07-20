@@ -131,8 +131,8 @@ h2 {
 */
 
 #intro {
-    text-align: left;
-    margin-top: 70px;
+    text-align: center;
+    margin-top: 150px;
     font-size: 40px;
     padding-left: 50px;
 }
@@ -400,4 +400,8 @@ Lexy:hover {
 .photography:hover .overlay {
     opacity: 1;
     transition: all 1s;
+}
+#down {
+    padding-top: 100px;
+    padding-left: 50px;
 }
