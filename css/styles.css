@@ -11,6 +11,7 @@ body {
 
 /*side nav starts here*/
 
+/*styling for gif area*/
 #head {
     height: 100vh;
     ;
@@ -25,6 +26,8 @@ body {
     background-image: url(../images/transition.gif);
     color: #F3EFE0;
 }
+
+/*end of styling for gif area*/
 
 .sidenav {
     height: 100%;
@@ -85,13 +88,13 @@ img {
     font-size: 25px;
     text-align: center;
 }
-
+/*description of application is here */
 .description {
     height: 40vh;
     font-size: 20px;
     padding-left: 0px;
 }
-
+/*end here*/
 .headings {
     text-align: center;
     cursor: pointer;
@@ -112,7 +115,7 @@ body {
 h2 {
     font-family: 'Crimson Text', serif;
 }
-
+/*styling for down buttons for projects page*/
 .hiding1,
 .hiding2,
 .hiding3,
@@ -121,35 +124,65 @@ h2 {
     display: none;
     margin-bottom: 0;
 }
+/*end here*/
 
-
-/*
 .wrapper {
     padding: 0;
     margin: 0;
 }
-*/
 
+/*text on gif area */
 #intro {
     text-align: center;
-    margin-top: 150px;
+    margin-top: 100px;
     font-size: 40px;
     padding-left: 50px;
 }
+/*end here*/
 
+/*styling for quote*/
 .pulse {
     background-color: #CBA135;
+/*    background-color: antiquewhite;*/
     font-size: 40px;
     text-align: center;
     padding-left: 300px;
     height: auto;
+    color: black;
     padding-right: 300px;
+    padding-right: 300px;
+    padding-top: 70px;
+    padding-bottom: 50px;
 }
-
+/* ends here*/
+/*
+styling for my name
+*/
+.name {
+    font-size: 70px;
+}
+/*end here*/
+.animater {
+    font-size: 40px;
+}
+/*styling for projects page area in projects.html*/
 #projects {
     background-color: #F06449;
     height: inherit;
 }
+#projectspage {
+    background-color: #F06449;
+    height: inherit;
+    width: 100%;
+    color: black;
+}
+
+#prjects {
+    font-size: 70px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+/*ends here*/
 
 button {
     background-color: #F06449;
@@ -160,7 +193,7 @@ button {
 /* styling for contact page*/
 
 #contactspage {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -214,20 +247,11 @@ footer {
     font-size: 15px;
     text-align: center;
     background-color: #CBA135;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-#projectspage {
-    background-color: #F06449;
-    height: inherit;
-    width: 100%;
-    color: black;
-}
 
-#prjects {
-    font-size: 70px;
-    padding-top: 40px;
-    padding-left: 30px;
-}
 
 .col-md-4 {
     margin: 0;
@@ -246,9 +270,6 @@ a:hover {
     text-decoration: inherit;
 }
 
-.ate {
-    color: black
-}
 
 #last {
     margin-bottom: auto;
@@ -266,6 +287,7 @@ html {
     overflow-y: scroll
 }
 
+/*styling for use of masonry -- unused*/
 .grid {
     background: #DDD
 }
@@ -291,7 +313,9 @@ html {
     max-width: 100%;
     max-height: 100%;
 }
+/*ends here*/
 
+/*styling for projects on index*/
 #project li {
     list-style: none;
     color: black;
@@ -401,7 +425,4 @@ Lexy:hover {
     opacity: 1;
     transition: all 1s;
 }
-#down {
-    padding-top: 100px;
-    padding-left: 50px;
-}
+/*ends here*/
